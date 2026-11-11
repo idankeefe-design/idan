@@ -1,11 +1,96 @@
-html
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Website Pertamaku</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Spesial Kami</title>
+    <!-- Ini adalah font biar tulisannya bagus -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        /* --- INI BAGIAN UNTUK MENGHIAS (CSS) --- */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        .tombol-promo {
+            background-color: #ff4757;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+        }
+        .tombol-promo:hover {
+            background-color: #ff6b81;
+            transform: translateY(-3px);
+        }
+        .fitur {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .kartu {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .kartu h3 {
+            color: #1e3c72;
+        }
+    </style>
 </head>
 <body>
-    <h1>Halo Dunia! 🎉</h1>
-    <p>Ini adalah website pertamaku yang dibuat gratis pakai GitHub Pages.</p>
+
+    <!-- BAGIAN 1: SAMBUTAN UTAMA -->
+    <div class="hero">
+        <h1>Tulis Judul Promosi Anda di Sini</h1>
+        <p>Berikan kalimat singkat yang bikin orang tertarik. Contoh: "Dapatkan diskon 50% khusus bulan ini!"</p>
+        <a href="https://wa.me/6281234567890" class="tombol-promo">Hubungi via WhatsApp</a>
+    </div>
+
+    <!-- BAGIAN 2: KEUNGGULAN PRODUK -->
+    <div class="fitur">
+        <div class="kartu">
+            <h3>⭐ Kualitas Terbaik</h3>
+            <p>Jelaskan di sini kenapa produk/jasa Anda bagus. Misalnya: Menggunakan bahan premium.</p>
+        </div>
+        <div class="kartu">
+            <h3>🚀 Proses Cepat</h3>
+            <p>Jelaskan keunggulan kedua. Misalnya: Pesanan Anda selesai dalam hitungan jam.</p>
+        </div>
+        <div class="kartu">
+            <h3>💰 Harga Terjangkau</h3>
+            <p>Jelaskan keunggulan ketiga. Misalnya: Dapatkan kualitas terbaik tanpa menguras kantong.</p>
+        </div>
+    </div>
+
 </body>
 </html>
